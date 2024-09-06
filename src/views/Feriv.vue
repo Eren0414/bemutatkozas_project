@@ -1,7 +1,8 @@
 <template>
-  <div>
+<div>
     <h1>Miau</h1>
     <img src="../../public/jotaro.jpg/" alt="">
+    <p>Miau</p>
   </div>
 </template>
 
