@@ -29,3 +29,6 @@ import Kristofv from './views/Kristofv.vue';
   <RouterView />
 </template>
 
+<style>
+</style>
+
