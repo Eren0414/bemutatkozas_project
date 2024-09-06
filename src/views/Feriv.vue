@@ -4,23 +4,11 @@
   <h1 class="masthead-heading">Feri vagyok</h1>
 </header>
 <section class ="introduction-section">
-  <h1>Introduction</h1>
-  <p>I am an aspiring Web Developer and Designer living in Los Angeles, CA with my girlfriend and two dogs. My background is in healthcare consulting but I am looking to implement my love for design into a new career.</p>
-  <p>Happiness is always going to be the most important thing to me. Happiness is easy. A lot of people might say “Well, if it’s easy, then it probably isn’t worth anything.” Wrong – life should be easy. If it’s not easy, then you might be doing it wrong.</p>
-</section>
+  </section>
 <section class="location-section">
-  <h1>Where I'm From</h1>
-  <p>I’m from a small mountain town in Colorado and I have lived all around both Colorado and California.</p>
-</section>
+ </section>
 <section class="questions-section">
-  <h1>More About Me</h1>
-  <h2>What are your favorite hobbies?</h2>
-  <p>My favorite hobbies are design and illustration, music, writing, and lately I have been really getting into becoming an amateur barista.</p>
-  <h2>What's your dream job?</h2>
-  <p>My dream job would be in a Front-End Web Developer position where I also got to use my design skills to their full potential. I definitely like being part of smaller, more cohesive teams.</p>
-  <h2>What music have you been listening to lately?</h2>
-  <p>I have been listening to everything from Band of Horses to Leon Bridges to Boston and everything in between.</p>
-</section>
+  </section>
 <footer class="content-footer">
   
 </footer>
