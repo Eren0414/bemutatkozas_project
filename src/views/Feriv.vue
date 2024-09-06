@@ -1,7 +1,7 @@
 <template>
 <header class="masthead">
-  <p class="masthead-intro">Hi, I'm</p>
-  <h1 class="masthead-heading">Jason!</h1>
+  <p class="masthead-intro">Heooo, én</p>
+  <h1 class="masthead-heading">Feri vagyok</h1>
 </header>
 <section class ="introduction-section">
   <h1>Introduction</h1>
