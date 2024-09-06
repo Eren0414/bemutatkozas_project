@@ -1,86 +1,102 @@
-/* color palette from <https://github.com/vuejs/theme> */
-:root {
-  --vt-c-white: #ffffff;
-  --vt-c-white-soft: #f8f8f8;
-  --vt-c-white-mute: #f2f2f2;
-
-  --vt-c-black: #181818;
-  --vt-c-black-soft: #222222;
-  --vt-c-black-mute: #282828;
-
-  --vt-c-indigo: #2c3e50;
-
-  --vt-c-divider-light-1: rgba(60, 60, 60, 0.29);
-  --vt-c-divider-light-2: rgba(60, 60, 60, 0.12);
-  --vt-c-divider-dark-1: rgba(84, 84, 84, 0.65);
-  --vt-c-divider-dark-2: rgba(84, 84, 84, 0.48);
-
-  --vt-c-text-light-1: var(--vt-c-indigo);
-  --vt-c-text-light-2: rgba(60, 60, 60, 0.66);
-  --vt-c-text-dark-1: var(--vt-c-white);
-  --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
+body{
+  background-image: url('https://wallpapers.com/images/featured/1920x1080-aesthetic-glrfk0ntspz3tvxg.webp');
 }
-
-/* semantic color variables for this project */
-:root {
-  --color-background: var(--vt-c-white);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
-
-  --color-border: var(--vt-c-divider-light-2);
-  --color-border-hover: var(--vt-c-divider-light-1);
-
-  --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
+.container{
+  width: 500px;
+  height: 75px;
+  border-radius: 20px;
+  box-shadow: 2px 3px 5px black;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap:wrap;
+  align-items: center;
+  background-color: rgba(28, 49, 41, 0.767);
+  margin-top: 20px;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --color-background: var(--vt-c-black);
-    --color-background-soft: var(--vt-c-black-soft);
-    --color-background-mute: var(--vt-c-black-mute);
-
-    --color-border: var(--vt-c-divider-dark-2);
-    --color-border-hover: var(--vt-c-divider-dark-1);
-
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
-  }
+.logo{
+  width: 150px;
+  height: 50px;
+  flex-grow: 7;
 }
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
+.main{
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 5px;
+  text-shadow: 2px 3px 5px black;
+  letter-spacing: 2px;
 }
-
-body {
-  min-height: 100vh;
-  color: var(--color-text);
-  background: var(--color-background);
-  transition:
-    color 0.5s,
-    background-color 0.5s;
-  line-height: 1.6;
-  font-family:
-    Inter,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Oxygen,
-    Ubuntu,
-    Cantarell,
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  font-size: 15px;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.sub{
+  color: white;
+  font-weight: bold;
+  margin-top: -20px;
+  font-size: 10px;
+  margin-left: 8px;
+  letter-spacing: 3px;
+}
+ul{
+  display: flex;
+flex-wrap:wrap;
+  list-style-type: none;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 30px;
+  margin-top: 20px !important;
+  width: 500px;
+  height: 50px;
+}
+li a{
+  text-decoration: none;
+  margin-right: 30px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.section1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px !important;
+}
+.subsec{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.heading{
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-size: 60px;
+  letter-spacing: 6px;
+  font-style: italic;
+  text-shadow: 2px 4px 6px black;
+}
+.subheading{
+  color: white;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 8px;
+  font-size: 25px;
+  margin-top: -20px;
+}
+.butt{
+  width: 250px;
+  height: 50px;
+  background-color: transparent;
+  border:2px solid rgb(141, 141, 148);
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 20px;
+}
+.butt:hover{
+  background-color:rgba(28, 49, 41, 0.767); ;
 }
