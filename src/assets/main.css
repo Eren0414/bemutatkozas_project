@@ -1,11 +1,11 @@
 @import './base.css';
 
 body{
-  background-image: url('https://images.saymedia-content.com/.image/t_share/MTc2MjY3NzE5MTI4NDU4NDEz/swat-valley-pakistan.jpg');
+  background-image: url('https://images.pexels.com/photos/1261728/pexels-photo-1261728.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
 }
 .container{
   width: 500px;
-  height: 70px;
+  height: 75px;
   border-radius: 20px;
   box-shadow: 2px 3px 5px black;
   display: flex;
