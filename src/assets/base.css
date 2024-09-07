@@ -3,7 +3,8 @@ body{
 }
 .container{
   width: 500px;
-  height: 75px;
+  height: auto;
+  max-width: 100%;
   border-radius: 20px;
   box-shadow: 2px 3px 5px black;
   display: flex;
@@ -22,6 +23,8 @@ body{
 .main{
   color: white;
   font-weight: bold;
+  max-width: 100%;
+  font-size:1vw;
   padding: 5px;
   font-size: 30px;
   text-shadow: 2px 3px 5px black;

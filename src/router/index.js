@@ -18,6 +18,12 @@ const router = createRouter({
       path: '/aboutferenc',
       name: 'aboutferenc',
       component: () => import('../views/Feriv.vue')
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'NotFound',
+        component: () => import('../views/Error.vue')
+
     }
   ]
 })
