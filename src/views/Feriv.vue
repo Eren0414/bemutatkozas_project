@@ -14,6 +14,10 @@
   </div>
 </div>
 
+<div class="thing ms-5">
+  <h2>Nagy Ferenc</h2>
+  <p>Sziasztok, szeretek zenét hallgatni és játszani és programozni.</p>
+</div>
 
 
 </template>
@@ -132,6 +136,34 @@ export default {
     transform: rotate(360deg);
   }
 }
+.thing {
+  padding: 1rem;
+  width: 420px;
+  box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  margin-top: 12rem;
+  
+  border-left: 0 solid #00ff99;
+  transition: border-left 300ms ease-in-out, padding-left 300ms ease-in-out;
+}
+
+.thing:hover {
+  padding-left: 0.5rem;
+  border-left: 0.5rem solid #00ff99;
+}
+
+.thing > :first-child {
+  margin-top: 0;
+}
+
+.thing > :last-child {
+  margin-bottom: 0;
+}
+
+
+
 
 
 </style>
