@@ -7,15 +7,11 @@ import Kristofv from './views/Kristofv.vue';
 
 <template>
   <header>
+  <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello, world!</title>
-    <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="/favicon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vite</title>
+    <title>Bemutatkozás</title>
   </head>
   <body>
     <header>
