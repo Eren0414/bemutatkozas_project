@@ -8,6 +8,12 @@ import Kristofv from './views/Kristofv.vue';
 <template>
   <header>
     <title>Hello, world!</title>
+    <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite</title>
+  </head>
   <body>
     <header>
      <div class="container my-container my-border">
