@@ -46,6 +46,10 @@ export default {
 
 <style>
 
+
+
+
+
 .kepek{
 
   display: flex;
@@ -275,10 +279,5 @@ a:hover {
   font-size: 14px;
   color: hsl(0, 0%, 70%);
 }
-
-
-
-
-
 
 </style>
