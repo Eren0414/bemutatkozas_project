@@ -32,10 +32,6 @@
         <h6 class="betu">$uicideBoy$</h6>
       </div>
     </div>
-
-
-
-
 </template>
 
 <script>
@@ -47,7 +43,6 @@ export default {
 <style>
 
 .kepek{
-
   display: flex;
     flex-wrap: wrap;
     max-width: 95%;
@@ -55,7 +50,6 @@ export default {
     margin: 0 auto;
     justify-content: left;
     margin-top: 12rem;
-
 }
 
 
