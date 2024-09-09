@@ -21,7 +21,7 @@
               </div>
             </div>
 
-            <h2>Kristóf Jáger</h2>
+            <h2>Jáger Kristóf</h2>
             <h3>Szoftverfejlesztő és programozó</h3>
           </div>
         </div>
@@ -29,7 +29,7 @@
       </div>
 
       <div class = "about-right">
-        <h1>Hello<span>!</span></h1>
+        <h1>Hello!</h1>
 
         <div class ="about-para">
           <p>Sziasztok Kristóf vagyok, nagyon szeretek programozni és alkalmazásokat fejleszteni.</p>
