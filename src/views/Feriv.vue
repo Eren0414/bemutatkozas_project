@@ -55,7 +55,7 @@ export default {
     margin: 0 auto;
     justify-content: left;
     margin-top: 12rem;
-    transform: rotateX(0deg) rotateY(-6deg) rotateZ(10deg);
+
 }
 
 
@@ -203,6 +203,7 @@ a:hover {
   place-items: left;
   float: right;
   margin-top: -21rem;
+  margin-right: 12rem;
   border-radius: 4px;
   padding: 16px;
   overflow: hidden;
@@ -210,6 +211,7 @@ a:hover {
   transition: background-color 0.4s;
   cursor: pointer;
   margin-bottom: 2rem;
+  transform: rotateX(0deg) rotateY(-6deg) rotateZ(10deg);
 }
 .card2:hover {
   background-color: #282828;
